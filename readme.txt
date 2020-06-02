@@ -18,3 +18,14 @@ Technologies:
 10.Bootstrap
 
 I spend 7 hours in the backend side and 1.5 on the frontend side, I tried to use all the good practice that I know
+
+These are the endpoints:
+1.{host}/briefcase/getBriefCase/{id} GET -> get briefcase
+2.{host}/briefcase/update POST object:
+{
+    "id": {id}, // should existing id in the DB
+    "pathImage": "",
+    "name": "",
+    "lastName": "",
+    "description": "",
+    "userTwitter": ""}
